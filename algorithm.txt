@@ -1,0 +1,11 @@
+Buka Aplikasi Korean Foodieline
+Login jika sudah mempunyai akun
+Register atau Sign up jika belum memiliki akun
+Pilih makanan yang ingin dipesan
+Klik Tambah Pesanan
+Tambahkan alamat jika belum menambahkan alamat
+Tentukan lokasi pengiriman
+Tentukan jumlah pesanan
+Bayar dengan Tunai / E-wallet
+Tambahkan deskripsi pesanan (optional)
+Klik Pesan

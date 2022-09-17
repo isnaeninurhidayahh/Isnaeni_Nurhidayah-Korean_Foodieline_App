@@ -1,0 +1,67 @@
+READ AND WRITE "Akun" with string
+READ AND WRITE "Register" with string
+READ AND WRITE "Data" with string
+READ AND WRITE "Login" with string
+READ AND WRITE "Pilih_makanan" with string
+READ AND WRITE "lokasi" with char
+READ AND WRITE "Alamat" with char
+READ AND WRITE "Pilih_alamat" with char
+READ AND WRITE "Jumlah_Pesanan" with number
+READ AND WRITE "Metode_pembayaran" with string
+READ AND WRITE "E_wallet" with string
+READ AND WRITE "Pilih_E_wallet" with string
+READ AND WRITE "password" with char
+READ AND WRITE "Cash" with string
+READ AND WRITE "Deskrpisi" with char
+READ AND WRITE "Pesan" with string
+READ AND WRITE "yes" with string
+READ AND WRITE "no" with string
+
+if (Akun == 'no') {
+    while Register 
+    add Data
+    PRINT Data
+    PRINT "Akun berhasil dibuat"
+    do Login
+}
+else (Akun == 'yes') {
+    do Login
+}
+
+add Pilih_makanan
+PRINT "Pesanan berhasil ditambahkan"
+add lokasi
+
+if (Alamat == 'no'){
+    add Alamat
+    PRINT "Alamat berhasil ditambahkan"
+    do Pilih_alamat
+}
+else (Alamat == 'yes'){
+    do Pilih_alamat
+}
+
+WRITE Jumlah_Pesanan
+PRINT Jumlah_Pesanan
+PRINT "Jumlah pesanan berhasil ditambahkan"
+
+goto  Metode_pembayaran
+if (E_wallet == 'yes'){
+    add password
+    PRINT "Transaksi berhasil!"
+    goto Deskrpisi
+}
+else (Cash == 'yes'){
+    goto Deskrpisi
+}
+
+PRINT "Perlu menambahkan deskripsi ?"
+if (Deskrpisi == 'yes'){
+    WRITE Deskrpisi
+    goto Pesan
+}
+else (Deskrpisi == 'no'){
+    goto Pesan
+}
+
+end
